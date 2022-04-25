@@ -10,7 +10,7 @@ pipeline {
             steps {
                 sh '''
                     echo "running the tests ......."
-                    mvn tests
+                    mvn test
                 '''
             }
         }
